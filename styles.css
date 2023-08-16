@@ -1,0 +1,121 @@
+h1 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  color: #4F4D53;
+}
+
+h2 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  color: #E8BE02;
+}
+
+h3 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #E8BE02;
+}
+
+h4 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #4F4D53;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+.header {
+  background-color: #4F4D53;
+  padding: 10px;
+}
+
+.logo {
+  height: auto;
+}
+
+.hero {
+  background-image: url('media/img_hero.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  text-align: left;
+  margin-top: 10rem;
+}
+
+.hero .image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+.hero .image-container img {
+  width: 160px;
+  height: 160px;
+}
+
+.description {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #4F4D53;
+  border-top: 5px solid #E8BE02;
+  color: #FFFFFF;
+}
+
+.footer .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.footer .column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer #join_us {
+  margin-top: 1rem;
+}
